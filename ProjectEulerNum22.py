@@ -48,6 +48,6 @@ def alphabet_score(name):
     return name_score
 
 for name in sorted_names:
-    answer += alphabet_score(name) * (int(sorted_names.index(name)) + 1)
+    answer += alphabet_score(name) * int(sorted_names.index(name) + 1)
 
 print(answer)
