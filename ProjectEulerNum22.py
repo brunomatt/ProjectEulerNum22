@@ -6,7 +6,7 @@
 #What is the total of all the name scores in the file?
 
 name_file = open("names.txt" , "r") # opens text file
-names = name_file.readline().rstrip("\n").split(',')
+names = name_file.readline().rstrip("\n").split(',') # I already removed the quotes using my text editor. This appends the names one-by-one
 
 sorted_names = sorted(names)
 
